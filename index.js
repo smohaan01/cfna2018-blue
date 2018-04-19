@@ -32,7 +32,7 @@ app.all('*', function(req, res) {   // serve all other requests
   var icon_name = "Green-station.png";
   //
   // uncomment me
-  //var icon_name = "Blue-station.png";
+  var icon_name = "Blue-station.png";
 
   res.writeHead(200, {"Content-Type": "text/html; charset=UTF-8"});
   res.write("<html><body style='font-family: Arial'><img align='left' src='./images/Blue-Green-icon.png'>");
